@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders correctly: Regular 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-rows: 1.75rem 1fr 1.75rem;
+  height: 100%;
+  justify-items: center;
+  padding: 2rem 0;
+  width: 4.375rem;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c1 {
+  height: 1.75rem;
+}
+
+.c5 {
+  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 0.25rem 1fr 0.25rem;
+  color: #a3abb5;
+  height: 4.125rem;
+  justify-items: center;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+  width: 100%;
+}
+
+.c3.active {
+  color: #101b29;
+}
+
+.c3.active .c4 {
+  background-color: currentColor;
+}
+
+.c3:hover {
+  opacity: 0.8;
+}
+
+.c3 svg {
+  height: 1.125rem;
+}
+
+<div>
+  <nav
+    class="c0"
+  >
+    <svg
+      class="c1"
+    >
+      isotype.svg
+    </svg>
+    <div
+      class="c2"
+    >
+      <a
+        aria-current="page"
+        class="c3 active"
+        href="/"
+      >
+        <div
+          class="c4 c5"
+        />
+        <svg>
+          apps.svg
+        </svg>
+      </a>
+      <a
+        class="c3"
+        href="/education"
+      >
+        <div
+          class="c4 c5"
+        />
+        <svg>
+          graduation-cap.svg
+        </svg>
+      </a>
+      <a
+        class="c3"
+        href="/grades"
+      >
+        <div
+          class="c4 c5"
+        />
+        <svg>
+          diploma.svg
+        </svg>
+      </a>
+      <a
+        class="c3"
+        href="/stats"
+      >
+        <div
+          class="c4 c5"
+        />
+        <svg>
+          stats.svg
+        </svg>
+      </a>
+      <a
+        class="c3"
+        href="/billing"
+      >
+        <div
+          class="c4 c5"
+        />
+        <svg>
+          money.svg
+        </svg>
+      </a>
+      <a
+        class="c3"
+        href="/help"
+      >
+        <div
+          class="c4 c5"
+        />
+        <svg>
+          interrogation.svg
+        </svg>
+      </a>
+    </div>
+  </nav>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo isologotype variant renders correctly: Isologotype 1`] = `
+<div>
+  <svg>
+    isologotype.svg
+  </svg>
+</div>
+`;
+
+exports[`Logo isotype variant renders correctly: Isotype 1`] = `
+<div>
+  <svg>
+    isotype.svg
+  </svg>
+</div>
+`;

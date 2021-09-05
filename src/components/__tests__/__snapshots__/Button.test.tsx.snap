@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly: Regular 1`] = `
+.c0 {
+  background-color: #e93256;
+  border: none;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.75rem 1rem;
+  -webkit-transition: background-color linear 0.5s;
+  transition: background-color linear 0.5s;
+}
+
+.c0:focus {
+  background-color: #d6284a;
+}
+
+.c0:hover {
+  background-color: #e55373;
+}
+
+.c0:disabled {
+  background-color: #f8d4dc;
+  cursor: not-allowed;
+}
+
+<div>
+  <button
+    class="c0"
+  />
+</div>
+`;

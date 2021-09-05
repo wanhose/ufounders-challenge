@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input error renders correctly: Error 1`] = `
+.c1 {
+  background-color: #f2f3f4;
+  border: none;
+  border-radius: 0.5rem;
+  color: #11142d;
+  font-size: 1rem;
+  line-height: 150%;
+  margin-top: 0.5rem;
+  outline: unset;
+  padding: 1rem;
+  -webkit-transition: opacity linear 0.5s;
+  transition: opacity linear 0.5s;
+  width: 100%;
+  border: 0.0625rem solid #e93256;
+  box-shadow: 0 0.25rem 1.25rem rgba(255,44,85,0.2);
+}
+
+.c1:focus,
+.c1:hover {
+  opacity: 0.8;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.c2 {
+  color: #e93256;
+  display: block;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin-top: 0.25rem;
+  min-height: 1rem;
+}
+
+.c0 {
+  color: #858b94;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  display: block;
+}
+
+<div>
+  <div>
+    <label
+      class="c0"
+    >
+      Jest
+    </label>
+    <input
+      class="c1"
+      value="jest"
+    />
+    <span
+      class="c2"
+    >
+      Error
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Input renders correctly: Regular 1`] = `
+.c1 {
+  background-color: #f2f3f4;
+  border: none;
+  border-radius: 0.5rem;
+  color: #11142d;
+  font-size: 1rem;
+  line-height: 150%;
+  margin-top: 0.5rem;
+  outline: unset;
+  padding: 1rem;
+  -webkit-transition: opacity linear 0.5s;
+  transition: opacity linear 0.5s;
+  width: 100%;
+}
+
+.c1:focus,
+.c1:hover {
+  opacity: 0.8;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.c2 {
+  color: #e93256;
+  display: block;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  margin-top: 0.25rem;
+  min-height: 1rem;
+}
+
+.c0 {
+  color: #858b94;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  display: block;
+}
+
+<div>
+  <div>
+    <label
+      class="c0"
+    >
+      Jest
+    </label>
+    <input
+      class="c1"
+      value="jest"
+    />
+    <span
+      class="c2"
+    />
+  </div>
+</div>
+`;
